@@ -10,11 +10,12 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to AfterPass</h1>
         </header>
-        <label className="name">Full name (Optional): </label><input className="name"/>
+        <label className="name">Full name (Optional): </label><input className="name" value="Joe Crypto"/>
         <p className="App-warning">
           Remember! You cannot change your keychain data after you encode it!
         </p>
-        <label className="data">Key Data to Encode: </label><br/><textarea className="key-data" rows="8" cols="60"></textarea>
+        <label className="data">Key Data to Encode: </label><br/>
+        <textarea className="key-data" rows="8" cols="60">MyEtherWallet Seed: knee someone crash begin laugh tip oppose sing inside toe blouse</textarea>
         <p className="App-warning">
           The more people you share your key with, the more secure your keychain.
         </p>
@@ -25,7 +26,7 @@ class App extends Component {
           <option>Dav (dave@example.com)</option>
           <option>Lana (lana@example.com)</option>
         </select><br/>
-        <label className="name">Add another: </label><input className="name"/>
+        <label className="name">Add another: </label><input className="name" value="jason@example.com"/>
         <p className="App-warning">
           You are responsible for distributing your keys. Download them by pressing the button below.
         </p>

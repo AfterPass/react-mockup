@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="theme-color" content="#000000">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App {
+text-align: center;
+}
+
+.App-logo {
+height: 80px;
+}
+
+.App-header {
+background-color: #222;
+height: 150px;
+padding: 20px;
+color: white;
+}
+
+.App-title {
+font-size: 1.5em;
+}
+
+.App-intro {
+font-size: large;
+}
+
+.App-warning {
+font-size: large;
+color: red;
+font-weight: bold;
+}
+
+.name {
+font-size: large;
+margin-top: 1em;
+}
+
+.key-data {
+font-size: large;
+margin-top: 1em;
+}
+
+.trustees {
+font-size: large;
+margin-top: 1em;
+width: 300px;
+}
+
+.download {
+font-size: 2em;
+font-weight: bold;
+margin-bottom: 4em;
+}
+</style>
+
+<title>AfterPass Demo</title>
+</head>
+<body>
+<noscript>
+You need to enable JavaScript to run this app.
+</noscript>
+<div id="root"></div>
+<div class="App">
+<header class="App-header">
+<img src="logo.png" class="App-logo" alt="logo" />
+<h1 class="App-title">Welcome to AfterPass</h1>
+</header>
+<label class="name"><strong>Step 1:</strong> Full name (Optional): </label><input class="name" value="Joe Crypto"/>
+<br/><br/><label class="data"><strong>Step 2:</strong> Paste in your Key Data to Encode: </label><br/>
+<textarea class="key-data" rows="8" cols="60">MyEtherWallet Seed: knee someone crash begin laugh tip oppose sing inside toe blouse</textarea>
+<p class="App-warning">
+The more people you share your key with, the more secure your keychain.
+</p>
+<label class="data"><strong>Step 3:</strong> My trustees: </label><br/>
+<select size="4" multiple class="trustees">
+<option value="AfterPass">AfterPass (open@afterpass.co)</option>
+<option>Me (user@example.com) </option>
+<option>Dav (dave@example.com)</option>
+<option>Lana (lana@example.com)</option>
+</select><br/>
+<label class="name">Add another: </label><input class="name" value="jason@example.com"/>
+<br/><br/><label class="name"><strong>Step 4:</strong> Threshold: </label><input class="name" style="width: 30px" value="3"/>
+<br/>
+<p class="App-warning">
+Remember: These people can unlock your account in the case of an emergency.
+</p>
+<br/><button class="download">Step 5: Download</button>
+</div>
+</body>
+</html>
